@@ -19,9 +19,7 @@ body {
 }
 
 #preload-01 { background: url(../img/constructive_bg_01.jpg) no-repeat -9999px -9999px; }
-#preload-02 { background: url(../img/constructive_bg_01.jpg) no-repeat -9999px -9999px; }
-#preload-03 { background: url(../img/constructive_bg_01.jpg) no-repeat -9999px -9999px; }
-#preload-04 { background: url(../img/constructive_bg_01.jpg) no-repeat -9999px -9999px; }
+
 
 ul { margin: 0; padding: 0; }
 
@@ -103,7 +101,7 @@ p:last-child { margin-bottom: 0; }
     display: flex;
     -webkit-box-align: center;
     -ms-flex-align: center;
-            align-items: center;
+            align-items: flex-start;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
             justify-content: center;
@@ -238,32 +236,6 @@ address { font-size: 1rem; }
     padding: 15px;
 }
 
-.form-control:focus {
-    background: transparent;
-    color: white;
-    border-color: #33ccff;
-    box-shadow: none;
-}
-
-::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 1) !important;
-    opacity: 1.0;
-}
-
-:-moz-placeholder {
-    color: rgba(255, 255, 255, 1) !important;
-    opacity: 1.0;
-}
-
-::-moz-placeholder {
-    color: rgba(255, 255, 255, 1) !important;
-    opacity: 1.0;
-}
-
-:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 1) !important;
-    opacity: 1.0;
-}
 
 .footer-link {
     position: absolute;
