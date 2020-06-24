@@ -29,7 +29,9 @@ a:focus {
 	text-decoration: none;
 	outline: none;
 }
-
+.logo-ghm{
+    width: 38%;
+}
 a {	color: #FFF;  }
 
 a:hover { color: #FF0; }
